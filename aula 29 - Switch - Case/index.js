@@ -1,1 +1,1 @@
-console.log()jhhf
+console.log(10)
