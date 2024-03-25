@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+:root {
+  --bodybkg-color: #a3a4a7;
+  --body-color: #f7f7f7;
+  --container-color: #2a3580;
+  --buttonbkg-color: #d6d2d2;
+  --button-color: #000000;
+  --buttonhover-color: #259e25;
+}
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bodybkg-color);
+  color: var(--body-color);
+  font-family: "Open sans", sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tabelaImc {
+  max-width: 640px;
+  margin: 50px;
+  background: var(--container-color);
+  padding: 20px;
+  border-radius: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  line-height: 1em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px;
+  background: var(--container-color);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+form input,
+form label,
+form button {
+  display: auto;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+form input {
+  font-size: 19px;
+  height: 30px;
+  padding: 0 10px;
+}
+
+form input:focus {
+  outline: 1px solid var(--container-color);
+}
+
+form button {
+  border: none;
+  background: var(--buttonbkg-color);
+  color: var(--button-color);
+  font-size: 18px;
+  font-weight: 700px;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+form button:hover {
+  background: var(--buttonhover-color);
+  color: #ffffff;
+}
+
+/* .paragrafo-resultado {
+  background: #05cd4b;
+  padding: 10px 20px;
+}
+
+.bad {
+  background: #e62a09;
+  padding: 10px 20px;
+} */
+
+.abaixoDoPeso-color {
+  background: #0a6dd0;
+  padding: 10px 20px;
+}
+.pesoNormal-color {
+  background: #38ee59;
+  padding: 10px 20px;
+}
+.sobrepeso-color {
+  background: #e6df06;
+  padding: 10px 20px;
+}
+.obesidadeGrau1-color {
+  background: #e6a306;
+  padding: 10px 20px;
+}
+.obesidadeGrau2-color {
+  background: #e67206;
+  padding: 10px 20px;
+}
+.obesidadeGrau3-color {
+  background: #e60606;
+  padding: 10px 20px;
+}
