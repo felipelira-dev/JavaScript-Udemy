@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 
 :root {
-  --bodybkg-color: #a3a4a7;
-  --body-color: #f7f7f7;
-  --container-color: #2a3580;
-  --buttonbkg-color: #d6d2d2;
+  --bodybkg-color: #d2d3d8;
+  --body-color: #ffffff;
+  --container-color: #051899;
+  --buttonbkg-color: #ffffff;
   --button-color: #000000;
-  --buttonhover-color: #259e25;
+  --buttonhover-color: #13b613;
 }
 * {
   box-sizing: border-box;
@@ -33,7 +33,7 @@ body {
   background: var(--container-color);
   padding: 20px;
   border-radius: 10px;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Open sans", sans-serif;
   font-size: 24px;
   line-height: 1em;
 }
