@@ -5,7 +5,7 @@
 // ... spread operetions, ()
 //indice          0    1    2    3    4    5    6    7    8 
 const numeros = [100, 200, 300, 400, 500, 600, 700, 800, 900];
-// const [um, , três, , cinco, ...resto] = numeros; //pulando indices e valores vazios, e usando o ... rest
+//const [um, , três, , cinco, ...resto] = numeros; //pulando indices e valores vazios, e usando o ... rest
 
 console.log(um, três, cinco, resto)
 
